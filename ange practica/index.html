@@ -160,17 +160,19 @@
                 <label>Nome</label>
                 <input type="text" placeholder="Digite seu nome" name="none" required>
             </div>
-            <form action="" class="formulario" method="POST">
-                <input type="text" placeholder="Nome" id="nombre" name="nombre" value="">
-                <input type="email" placeholder="Correio" id="correo" name="correo" value="" class="email">
-                <textarea name="mensaje" id="mensaje" placeholder="Mensagem"></textarea>
-                
-               <div class="derecha">
-                <input class="boton derecha" type="submit" onclick="return enviarForm();" value="Contactar" name="submmit">
-                <p class="warning" id="warning"></p>
-                </div>
-                
-            </form>
+            <div>
+                <label>Telefone</label>
+                <input type="text" placeholder="Digite seu telefone" name="telefone" required>
+            </div>
+            <div>
+                <label>mensagem</label>
+                <textarea rows="10" name="msg" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="enviar"/>
+            </div>
+ 
+        </form>
             <div id="error" ></div>
         </div>
     </section>
