@@ -137,7 +137,7 @@ body {
    }
    form input, fora textarea {
     outline: unset;
-    padding: 20;
+    padding: 15;
     min-width: 300px;
     border: 1px solid cornflowerblue;
     border-radius: 20;
